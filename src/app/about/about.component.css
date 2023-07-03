@@ -3,7 +3,11 @@
 }
 #history h2 {
   text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
 }
 #history h3 {
   text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
 }/*# sourceMappingURL=about.component.css.map */
