@@ -1,0 +1,31 @@
+
+.main { 
+    
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-top:  50px;
+    box-shadow: 0 0px 5px;
+    border-radius: 10px;
+    
+
+    img {
+        width: 300px;
+    }
+.icons {
+    width: 40px;
+}
+.footerItems{
+    display: flex;
+    // gap: 10px;
+    
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    span{
+       
+    }
+}
+}
