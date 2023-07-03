@@ -1,17 +1,21 @@
+#line {
+    width: 100%;
+    z-index: -1;
+}
+
 .hero {
     height: 600px;
-    // position: relative;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background-color: rgba(247, 42, 5, 0.541);
 }
 
 .image {
     width: 35rem;
     height: 35rem;
-    background: url("../../assets/images/gear3.png");
+    background: white url("../../assets/images/gear3.png");
     background-position: center;
     background-size: cover;
     animation: rotate 10s infinite linear;
