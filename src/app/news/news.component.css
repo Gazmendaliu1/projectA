@@ -1,1 +1,13 @@
-/*# sourceMappingURL=news.component.css.map */
+.insta {
+  display: flexbox;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
+}
+
+body {
+  margin: 25px;
+}
+
+.card {
+  margin: 35px;
+}/*# sourceMappingURL=news.component.css.map */
