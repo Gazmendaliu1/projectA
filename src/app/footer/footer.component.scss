@@ -2,7 +2,7 @@
 .main { 
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -28,4 +28,10 @@
        
     }
 }
+}
+
+.map {
+    width: 300px;
+    height: 200px;
+    text-align: center;
 }
