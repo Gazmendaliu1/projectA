@@ -1,18 +1,18 @@
-#history {
+.history {
   text-align: justify;
 }
-#history h2 {
+.history h2 {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
   padding-top: 30px;
 }
-#history h3 {
+.history h3 {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 20px;
   padding-top: 10px;
 }
-#history p {
+.history p {
   padding-bottom: 10px;
 }/*# sourceMappingURL=about.component.css.map */
