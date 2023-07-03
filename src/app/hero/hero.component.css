@@ -1,1 +1,44 @@
-/*# sourceMappingURL=hero.component.css.map */
+#line {
+  width: 100%;
+  z-index: -1;
+}
+
+.hero {
+  height: 600px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image {
+  width: 35rem;
+  height: 35rem;
+  background: white url("../../assets/images/gear3.png");
+  background-position: center;
+  background-size: cover;
+  animation: rotate 10s infinite linear;
+  position: absolute;
+  border: 2px dashed black;
+  border-radius: 50%;
+  box-shadow: 5px 0 15px;
+}
+
+.hero .headline {
+  position: absolute;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Wallpoet", cursive;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=hero.component.css.map */
