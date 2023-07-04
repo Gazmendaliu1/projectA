@@ -1,27 +1,27 @@
 .main {
-  display: flex;
-  justify-content: space-around;
-  border: 1px solid black;
+  background-color: rgb(70, 69, 69);
+  height: 300px;
   display: flex;
   align-items: center;
-  margin-top: 50px;
-  box-shadow: 0 0px 5px;
-  border-radius: 10px;
+  padding-left: 100px;
+  justify-content: space-around;
+}
+.main h2 {
+  color: rgb(202, 187, 187);
+}
+.main .d1 {
+  width: 800px;
+}
+.main a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.main .map {
+  width: 400px;
+  height: 230px;
 }
 .main img {
-  width: 300px;
-}
-.main .icons {
-  width: 40px;
-}
-.main .footerItems {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid green;
-}
-.map {
-  width: 300px;
-  height: 200px;
-  text-align: center;
+  cursor: pointer;
+  margin-left: 5px;
 }/*# sourceMappingURL=footer.component.css.map */

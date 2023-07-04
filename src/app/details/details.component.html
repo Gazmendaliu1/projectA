@@ -4,7 +4,24 @@
 
 <div class="description">
     <h2>Description</h2>
-    <p>{{course.description}}</p>
     <p>{{course.description2}}</p>
-
+    <h2>{{course.name2}}</h2>
+    <ul>
+        <li *ngFor="let val of course.list">
+            {{val}}
+        </li>
+    </ul>
+    <h2>{{course.name3}}</h2>
 </div>
+
+
+<!--
+<ul>
+    <li *ngFor="let val of course.description">
+        {{val}}
+    </li>
+</ul>-->
+
+<!--<p *ngFor="let val of course.description">
+        {{val}}
+    </p>-->

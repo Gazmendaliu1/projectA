@@ -20,6 +20,7 @@ export class DetailsComponent implements OnInit {
      this.activatedRoute.params.subscribe((params: any)=>{
       this.index = Number(params["id"]);
       this.course = courses[this.index];
+      
 
      })
    }
