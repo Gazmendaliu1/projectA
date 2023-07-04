@@ -1,50 +1,11 @@
 
-// .main { 
-    
-//     display: flex;
-//     justify-content: space-around;
-//     border: 1px solid black;
-//     display: flex;
-//     align-items: center;
-//     margin-top:  50px;
-//     box-shadow: 0 0px 5px;
-//     border-radius: 10px;
-    
-
-//     img {
-//         width: 300px;
-//     }
-// .icons {
-//     width: 40px;
-// }
-// .footerItems{
-//     display: flex;
-//     // gap: 10px;
-    
-//     align-items: center;
-//     justify-content: center;
-//     border: 1px solid green;
-//     span{
-       
-//     }
-// }
-// }
-
-// .map {
-//     width: 300px;
-//     height: 200px;
-//     text-align: center;
-// }
-
-
 
 .main {
     background-color: rgb(70, 69, 69);
-    height: 300px;
-    display: flex;
-    align-items: center;
+ 
+   
     padding-left: 100px;
-    justify-content: space-around;
+   
 
     h2 {
         color: rgb(202, 187, 187);
@@ -69,4 +30,18 @@ img{
     cursor: pointer;
     margin-left: 5px;
 }
+p {
+    color: white;
+
+}
+}
+
+@media  screen and (min-width: 820px) {
+    .main {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+
+    }
 }
