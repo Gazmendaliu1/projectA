@@ -4,6 +4,8 @@ export interface Icourses{
     image:string,
     duration:string,
     level:string,
-    url:string
-    // moreInfo: string
+    url:string,
+    img2:string,
+    description:string,
+    description2?:string
 }
