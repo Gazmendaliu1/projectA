@@ -1,31 +1,86 @@
 .history {
     text-align: justify;
+    width: auto;
+    margin: auto;
     h2 {
         text-align: center;
         text-decoration: underline;
+        text-decoration-thickness: 2px;
         padding-bottom: 20px;
         padding-top: 30px;
-        border: solid black 2px;
+        border: solid black 1px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 40ch;
+        border-right: 4px solid black;
+        margin: 2rem auto;
+        animation: typing 2s steps(13, end),
     }
     h3 {
         text-align: center;
         text-decoration: underline;
         padding-bottom: 20px;
         padding-top: 10px;
-        border: solid black 2px;
+        border: solid black 1px;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 40ch;
+        border-right: 4px solid black;
+        margin: 2rem auto;
+        animation: typing 2s steps(13, end),
     }
-    p{
+    p {
         padding-bottom: 10px;
     }
+}
 
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40ch;
+    }
 }
 
 .team {
     h2 {
         text-align: center;
         text-decoration: underline;
+        text-decoration-thickness: 2px;
         padding-bottom: 20px;
         padding-top: 30px;
-        border: solid black 2px;
+        border: solid black 1px;
+    }
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .image {
+        margin-left: 2rem;
+        box-shadow: 0px 0px 10px #aaaaaa;
+    }
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container2 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .image2 {
+        margin-right: 2rem;
+        box-shadow: 0px 0px 10px #aaaaaa;
     }
 }

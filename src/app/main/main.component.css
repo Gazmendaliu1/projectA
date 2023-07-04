@@ -1,8 +1,10 @@
 .courses {
-  margin-top: 2rem;
+  padding: 10px;
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  box-shadow: 0 0 15px;
 }
 
 .cards {

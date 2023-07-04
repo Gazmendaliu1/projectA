@@ -1,8 +1,30 @@
-#line {
+.line-container {
   width: 100%;
-  z-index: -1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
+.line-animation {
+  width: 0;
+  height: 3px;
+  background-color: black;
+  animation: lineMove 6s linear infinite;
+}
+
+@keyframes lineMove {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    width: 100%;
+    transform: translateX(0);
+  }
+  100% {
+    width: 100%;
+    transform: translateX(100%);
+  }
+}
 .hero {
   height: 600px;
   position: relative;
@@ -15,14 +37,57 @@
 .image {
   width: 35rem;
   height: 35rem;
-  background: white url("../../assets/images/gear3.png");
+  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear4.png");
   background-position: center;
   background-size: cover;
   animation: rotate 10s infinite linear;
   position: absolute;
   border: 2px dashed black;
   border-radius: 50%;
-  box-shadow: 5px 0 15px;
+}
+
+.small-image {
+  width: 15rem;
+  height: 15rem;
+  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear3.png");
+  background-position: center;
+  background-size: cover;
+  animation: rotate 10s infinite linear reverse;
+  position: absolute;
+  border: 2px dashed black;
+  border-radius: 50%;
+}
+
+.extra-small-image {
+  width: 7rem;
+  height: 7rem;
+  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear3.png");
+  background-position: center;
+  background-size: cover;
+  animation: rotate 10s infinite linear;
+  position: absolute;
+  border: 2px dashed black;
+  border-radius: 50%;
+}
+
+.small-image-left {
+  top: -5rem;
+  left: -5rem;
+}
+
+.small-image-right {
+  bottom: -5rem;
+  right: -5rem;
+}
+
+.extra-small-image-left {
+  top: 5rem;
+  left: 5rem;
+}
+
+.extra-small-image-right {
+  bottom: 5rem;
+  right: 5rem;
 }
 
 .hero .headline {
