@@ -10,6 +10,7 @@ import { MainComponent } from './main/main.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NewsComponent } from './news/news.component';
     MainComponent,
     TestimonialsComponent,
     AboutComponent,
-    NewsComponent
+    NewsComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

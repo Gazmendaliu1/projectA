@@ -2,7 +2,7 @@
 
 
 <div class="courses">
-    <div class="cards" *ngFor="let x of courses">
+    <div class="cards" *ngFor="let x of courses;index as i">
         <div class="card" style="width: 28rem; height: 25rem;">
             <img src="{{x.image}}" class="card-img-top" alt="Oops" style=" height:12rem;">
             <div class="card-body">
@@ -11,7 +11,7 @@
               <p ><b>Duration:</b> {{x.level}}</p>
               <hr>
               <div class="btns">
-                <a href="#" class="btn btn-primary" style="width: 15rem;">Details</a>
+                <a routerLink="/details/{{i}}" class="btn btn-primary" style="width: 15rem;">Details</a>
                 <a href="https://codefactory.wien/en/registration-frontend-developer-evening-course/" class="btn btn-success" style="width: 15rem;">Apply</a>
               </div>
 
