@@ -6,6 +6,7 @@ export const courses = [
    duration:"8 weeks",
    level:"Beginner and Advanced",
    url:"https://codefactory.wien/en/registration-frontend-developer-en/"
+   // moreInfo:"https://codefactory.wien/en/frontend-developer-en/"
 },
 {
    name:"Back End Developer Course",
@@ -14,6 +15,7 @@ export const courses = [
    duration:"7 weeks",
    level:"Beginner and Advanced",
    url:"https://codefactory.wien/en/registration-backend-developer-en/"
+   // moreInfo:"https://codefactory.wien/en/backend-developer-en/"
    
 },
 {
@@ -23,6 +25,7 @@ export const courses = [
    duration:"15 weeks",
    level:"Beginner and Advanced",
    url:"https://codefactory.wien/en/registration-full-stack-web-developer-en/"
+   // moreInfo:"https://codefactory.wien/en/full-stack-web-developer-en/"
 },
 {
    name:"Basic Course JavaScript",
@@ -31,6 +34,7 @@ export const courses = [
    duration:"2 days",
    level:"Beginner",
    url:"https://codefactory.wien/en/registration-basiskurs-javascript-en/"
+   // moreInfo:"https://codefactory.wien/en/basiskurs-javascript-en/"
 },
 {
    name:"Basic Course HTML/CSS",
@@ -39,6 +43,7 @@ export const courses = [
    duration:"2 days",
    level:"Beginner",
    url:"https://codefactory.wien/en/registration-basiskurs-html-css-en/"
+   // moreInfo:"https://codefactory.wien/en/basiskurs-html-css-en/"
 },
 {
    name:"Python Programming Course",
@@ -47,5 +52,6 @@ export const courses = [
    duration:"5 days",
    level:"Beginner",
    url:"https://codefactory.wien/en/registration-python-programming-en/"
+   // moreInfo:"https://codefactory.wien/en/python-programming-en/"
 }
 ]

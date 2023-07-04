@@ -5,4 +5,5 @@ export interface Icourses{
     duration:string,
     level:string,
     url:string
+    // moreInfo: string
 }
