@@ -7,5 +7,8 @@ export interface Icourses{
     url:string,
     img2:string,
     description:string,
-    description2?:string
+    description2?:string,
+    name2?: string,
+    list?:any,
+    name3?:string
 }
