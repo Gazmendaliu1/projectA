@@ -3,5 +3,6 @@ export interface Icourses{
     price:number,
     image:string,
     duration:string,
-    level:string
+    level:string,
+    url:string
 }
