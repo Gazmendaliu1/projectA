@@ -4,6 +4,8 @@ import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
 import { DetailsComponent } from './details/details.component';
+import { ProjectteamComponent } from './projectteam/projectteam.component';
+
 
 const routes: Routes = [ {
   path: "", component : MainComponent
@@ -14,6 +16,8 @@ const routes: Routes = [ {
 },
 {
   path:"details/:id", component : DetailsComponent
+},{
+  path: "projectteam", component : ProjectteamComponent
 }
 
 ];

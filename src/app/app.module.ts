@@ -12,6 +12,8 @@ import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
 import { DetailsComponent } from './details/details.component';
 
+import { ProjectteamComponent } from './projectteam/projectteam.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { DetailsComponent } from './details/details.component';
     TestimonialsComponent,
     AboutComponent,
     NewsComponent,
-    DetailsComponent
+    DetailsComponent,
+    ProjectteamComponent
   ],
   imports: [
     BrowserModule,
