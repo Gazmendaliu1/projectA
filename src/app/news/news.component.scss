@@ -7,4 +7,12 @@ body{
 }
 .card{
   margin: 35px;
+  justify-content: center;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  
 }
