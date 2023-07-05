@@ -117,6 +117,7 @@
   margin-top: 20px;
   margin-bottom: 5px;
   margin-left: 15px;
+  margin-right: 120px;
 }
 .fourthMember #memberText4 {
   text-align: center;
@@ -124,6 +125,7 @@
 .fourthMember .fourthMemberText {
   display: flex;
   align-items: center;
+  text-align: center;
   padding-left: 85px;
   padding-right: 240px;
 }
