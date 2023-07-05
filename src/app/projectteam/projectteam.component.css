@@ -94,6 +94,7 @@
 .thirdMember .thirdMemberText {
   display: flex;
   align-items: center;
+  margin-right: 100px;
 }
 .thirdMember button {
   background-color: white;
