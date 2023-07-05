@@ -75,3 +75,15 @@ gap: 1rem;
 
     }
 }
+
+@media  screen and (max-width: 570px) {
+  .courses {
+    grid-template-columns: repeat(1,1fr);
+    
+
+  }
+
+  .mycard{
+    width: 20rem !important;
+  }
+}
