@@ -13,6 +13,7 @@ import { NewsComponent } from './news/news.component';
 import { DetailsComponent } from './details/details.component';
 
 import { ProjectteamComponent } from './projectteam/projectteam.component';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProjectteamComponent } from './projectteam/projectteam.component';
     AboutComponent,
     NewsComponent,
     DetailsComponent,
-    ProjectteamComponent
+    ProjectteamComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,

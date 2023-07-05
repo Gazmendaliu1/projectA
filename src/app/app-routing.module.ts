@@ -5,13 +5,17 @@ import { AboutComponent } from './about/about.component';
 import { MainComponent } from './main/main.component';
 import { DetailsComponent } from './details/details.component';
 import { ProjectteamComponent } from './projectteam/projectteam.component';
+import { VideoComponent } from './video/video.component';
 
 
 const routes: Routes = [ {
   path: "", component : MainComponent
 },{
   path: "news" ,component : NewsComponent
-}, {
+},{
+  path:"video", component : VideoComponent
+},
+ {
   path:"about",component : AboutComponent
 },
 {
