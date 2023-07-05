@@ -1,6 +1,39 @@
 .containerr {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    gap: 20px;
+    text-align: center;
+    grid-template-columns: repeat(3,1fr);
+    // grid-template-rows: repeat(3,1fr);
+    gap: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+
+   iframe {
+    border-radius: 5px;
+   }
+  
+   
+   h2 {
+    font-size: 20px;
+   }
+
+   .diiv1 {
+    border: 1px solid black;
+    border-top-right-radius: 30px;
+    box-shadow: 0 0 15px;
+   }
+}
+
+@media  screen and (max-width:900px) {
+    .containerr {
+      grid-template-columns: repeat(2,1fr);
+
+    }
+  }
+
+  @media  screen and (max-width: 460px) {
+    .containerr {
+      grid-template-columns: repeat(1,1fr);
+      
+
+    }
 }
