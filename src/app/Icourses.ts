@@ -10,5 +10,40 @@ export interface Icourses{
     description2?:any,
     name2?: string,
     list?:any,
-    name3?:string
+    name3?:string,
+    name4?:string,
+    list2?:any,
+    name5?:string,
+    description3?:any,
+    name6?:string,
+    list3?:any,
+    name7?:string,
+    list4?:any,
+    name8?:string,
+    description4?:any,
+    name9?:string,
+    list5?:any,
+    name10?:string,
+    list6?:any,
+    name11?:string,
+    list7?:any
+    name12?:string,
+    description5?:any,
+    name13?:string,
+    name14?:string,
+    list8?:any,
+    name15?:string,
+    list9?:any,
+    name16?:string,
+    description6?:any,
+    name17?:string,
+    list10?:any,
+    name18?:string,
+    list11?:any,
+    name19?:string,
+    list12?:any,
+
+
+
+
 }

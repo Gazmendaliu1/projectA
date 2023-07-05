@@ -1,21 +1,45 @@
 .courses{
  
     padding: 10px;
-    margin-top: 3rem;
+    padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
-    box-shadow: 0 0 15px;
+   
+    
+}
+
+h1{
+  border:2px solid  rgb(121, 27, 27) ;
+  font-size: 5rem;
+  text-align: center;
+  
 }
 
 .cards{
+  
     margin: 0 auto;
+}
+
+.mycard{
+  border: 1px solid black;
+  box-shadow: 0 0 15px;
 }
 
 
 .btns{
 display: flex;
 gap: 1rem;
+}
+
+.mybtn{
+  background-color: rgb(121, 27, 27) !important;
+  color: white;
+}
+
+.mybtn1{
+  background-color: rgb(70, 69, 69) !important;
+  color: white;
 }
 
 

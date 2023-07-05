@@ -3,6 +3,9 @@
   display: flex;
   justify-content: center;
 }
+.details img {
+  padding-bottom: 20px;
+}
 
 .description {
   margin-left: 20%;

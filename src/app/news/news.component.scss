@@ -1,25 +1,49 @@
+.thething {
+
+  display: flex;
+  width: 40%;
+  margin: auto;
+  
+}
 .insta{
   display: flexbox;
   object-fit:scale-down;
 }
-body{
-  margin: 25px;
-}
+// body{
+//   margin: 25px;
+// }
 .card{
   margin: 35px;
   justify-content: center;
+  
 }
 
+.btn{
+  background-color: rgb(121, 27, 27) !important;
+  color: white;
+}
+
+.bg{
+  background-color: rgb(121, 27, 27) !important;
+}
 .container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   
+  
 }
 
-@media screen and (max-width: 600px) {
+.uppercase{
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1205px) {
   .container{
+    margin: 0 auto;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(1, 1fr);
+    width: 33.4rem;
   }
 }
+
