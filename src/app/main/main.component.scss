@@ -1,6 +1,6 @@
 .courses{
  
-    padding: 10px;
+    padding: 20px;
     padding-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -10,10 +10,12 @@
 }
 
 h1{
-  border:2px solid  rgb(121, 27, 27) ;
-  font-size: 5rem;
+  border:2px solid  black;
+  font-size: 4rem;
   text-align: center;
-  
+  color: rgb(255, 255, 255) ;
+  background-color:  rgb(121, 27, 27);
+  text-shadow: 0 0 3px white;
 }
 
 .cards{
@@ -42,6 +44,17 @@ gap: 1rem;
   color: white;
 }
 
+.testi {
+  // display: flex !important;
+  // justify-content: center !important;
+  // width: 500px !important;
+  // height: 500px !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+.carouselReset{
+  margin-right: 0!important;
+}
 
 
 
