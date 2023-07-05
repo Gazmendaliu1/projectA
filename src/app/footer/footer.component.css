@@ -1,10 +1,6 @@
 .main {
   background-color: rgb(70, 69, 69);
-  height: 300px;
-  display: flex;
-  align-items: center;
   padding-left: 100px;
-  justify-content: space-around;
 }
 .main h2 {
   color: rgb(202, 187, 187);
@@ -24,4 +20,16 @@
 .main img {
   cursor: pointer;
   margin-left: 5px;
+}
+.main p {
+  color: white;
+}
+
+@media screen and (min-width: 820px) {
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+  }
 }/*# sourceMappingURL=footer.component.css.map */

@@ -42,7 +42,20 @@ export interface Icourses{
     list11?:any,
     name19?:string,
     list12?:any,
-
+    name20?:string,
+    list13?:any,
+    name21?:string,
+    list14?:any,
+    name22?:string,
+    list15?:any,
+    name23?:string,
+    list16?:any,
+    name24?:string,
+    list17?:any,
+    name25?:string,
+    list18?:any,
+    name26?:string,
+    description7?:any,
 
 
 

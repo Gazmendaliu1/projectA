@@ -37,7 +37,7 @@
 .image {
   width: 35rem;
   height: 35rem;
-  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear4.png");
+  background: rgba(255, 255, 255, 0.898) url("../../assets/images/rad.png");
   background-position: center;
   background-size: cover;
   animation: rotate 10s infinite linear;
@@ -49,7 +49,7 @@
 .small-image {
   width: 15rem;
   height: 15rem;
-  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear3.png");
+  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear_01.png");
   background-position: center;
   background-size: cover;
   animation: rotate 10s infinite linear reverse;
@@ -61,7 +61,7 @@
 .extra-small-image {
   width: 7rem;
   height: 7rem;
-  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear3.png");
+  background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear_01.png");
   background-position: center;
   background-size: cover;
   animation: rotate 10s infinite linear;

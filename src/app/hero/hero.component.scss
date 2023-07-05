@@ -41,7 +41,7 @@
 .image {
     width: 35rem;
     height: 35rem;
-    background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear4.png");
+    background: rgba(255, 255, 255, 0.898) url("../../assets/images/rad.png");
     background-position: center;
     background-size: cover;
     animation: rotate 10s infinite linear;
@@ -54,7 +54,7 @@
 .small-image {
     width: 15rem;
     height: 15rem;
-    background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear3.png");
+    background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear_01.png");
     background-position: center;
     background-size: cover;
     animation: rotate 10s infinite linear reverse;
@@ -66,7 +66,7 @@
 .extra-small-image {
     width: 7rem;
     height: 7rem;
-    background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear3.png");
+    background: rgba(255, 255, 255, 0.898) url("../../assets/images/gear_01.png");
     background-position: center;
     background-size: cover;
     animation: rotate 10s infinite linear;
@@ -105,6 +105,15 @@
     font-weight: bold;
     text-align: center;
     font-family: 'Wallpoet', cursive;
+    //background-color: #791B1B;
+    //padding-left: 8px;
+    //padding-right: 8px;
+    //margin-left: 2px;
+    //margin-right: 1px;
+    //padding-top: 108px;
+    //padding-bottom: 108px;
+    //border-radius: 50%;
+    //color: aliceblue;
 }
 
 @keyframes rotate {
