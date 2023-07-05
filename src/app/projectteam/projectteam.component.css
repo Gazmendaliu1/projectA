@@ -1,200 +1,171 @@
 .heroo {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
-
 .heroo #heroo1 {
-    width: 700px;
-    border-radius: 30px;
-}
-
-.imgg {
-    width: 180px;
-    padding: 20px;
+  width: 700px;
+  border-radius: 30px;
 }
 
 .firstMember {
-    display: flex;
-    border: solid rgb(121, 27, 27) 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-top: 35px;
-    background-color: rgb(121, 27, 27);
-    color: white;
+  display: flex;
+  border: solid rgb(121, 27, 27) 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 35px;
+  background-color: rgb(121, 27, 27);
+  color: white;
 }
-
 .firstMember #imgMember1 {
-    width: 180px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    padding-left: 35px;
+  width: 180px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 35px;
 }
-
 .firstMember #memberText1 {
-    text-align: center;
+  text-align: center;
 }
-
 .firstMember .firstMemberText {
-    display: flex;
-    align-items: center;
-    padding-right: 100px;
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
 }
-
 .firstMember button {
-    background-color: white;
-    margin: 5px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    border-radius: 10px;
-    font-family: roboto;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  border-radius: 10px;
+  font-family: roboto;
 }
 
 .secondMember {
-    display: flex;
-    border: solid rgb(121, 27, 27) 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: rgb(121, 27, 27);
-    color: white;
+  display: flex;
+  border: solid rgb(121, 27, 27) 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgb(121, 27, 27);
+  color: white;
 }
-
 .secondMember #imgMember2 {
-    width: 150px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    margin-left: 250px;
+  width: 150px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-left: 250px;
 }
-
 .secondMember #memberText2 {
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
 .secondMember .secondMemberText {
-    display: flex;
-    align-items: center;
-    padding-left: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
 }
-
 .secondMember button {
-    background-color: white;
-    margin: 5px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    margin-left: 240px;
-    font-family: roboto;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-left: 240px;
+  font-family: roboto;
 }
 
 .thirdMember {
-    display: flex;
-    border: solid rgb(121, 27, 27) 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: rgb(121, 27, 27);
-    color: white;
+  display: flex;
+  border: solid rgb(121, 27, 27) 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgb(121, 27, 27);
+  color: white;
 }
-
 .thirdMember #imgMember3 {
-    width: 180px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    padding-left: 35px;
+  width: 180px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 35px;
 }
-
 .thirdMember #memberText3 {
-    text-align: center;
+  text-align: center;
 }
-
 .thirdMember .thirdMemberText {
-    display: flex;
-    align-items: center;
-    margin-right: 100px;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
 }
-
 .thirdMember button {
-    background-color: white;
-    margin: 5px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    border-radius: 10px;
-    font-family: roboto;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  font-family: roboto;
 }
 
 .fourthMember {
-    display: flex;
-    border: solid rgb(121, 27, 27) 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: rgb(121, 27, 27);
-    color: white;
+  display: flex;
+  border: solid rgb(121, 27, 27) 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgb(121, 27, 27);
+  color: white;
 }
-
 .fourthMember #imgMember4 {
-    width: 150px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    margin-left: 15px;
-    margin-right: 120px;
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 120px;
 }
-
 .fourthMember #memberText4 {
-    text-align: center;
+  text-align: center;
 }
-
 .fourthMember .fourthMemberText {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding-left: 85px;
-    padding-right: 240px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 85px;
+  padding-right: 240px;
 }
-
 .fourthMember button {
-    background-color: white;
-    margin: 5px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    font-family: roboto;
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-family: roboto;
 }
 
 .fifthMember {
-    display: flex;
-    border: solid rgb(121, 27, 27) 2px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: rgb(121, 27, 27);
-    color: white;
+  display: flex;
+  border: solid rgb(121, 27, 27) 2px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgb(121, 27, 27);
+  color: white;
 }
-
 .fifthMember #imgMember5 {
-    width: 180px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    padding-left: 35px;
-    margin-right: 90px;
+  width: 180px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  margin-right: 90px;
 }
-
 .fifthMember #memberText5 {
-    text-align: center;
+  text-align: center;
 }
-
 .fifthMember .fifthMemberText {
-    display: flex;
-    align-items: center;
-    padding-right: 100px;
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
 }
-
 .fifthMember button {
-    background-color: white;
-    margin: 5px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    border-radius: 10px;
-    font-family: roboto;
-}
-
-
-/*# sourceMappingURL=projectteam.component.css.map */
+  background-color: white;
+  margin: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+  font-family: roboto;
+}/*# sourceMappingURL=projectteam.component.css.map */
