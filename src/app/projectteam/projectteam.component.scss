@@ -50,19 +50,27 @@
     background-color: rgb(121, 27, 27);
     color: white;
     #imgMember2 {
-        width: 20%;
+        // width: 20%;
         width: 150px;
+        margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 5px;
     }
     #memberText2 {
         text-align: center;
         // padding-left: 20px;
-        padding-right: 20px;
+        // padding-right: 20px;
+    }
+    .secondMemberPic{
+        margin-left: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     .secondMemberText{
-        display: flex;
-        align-items: center;
+        // display: flex;
+        // align-items: center;
+        margin: auto 0;
         
     }
     button {
@@ -115,8 +123,9 @@
 
     #imgMember4 {
         // flex-basis: 50%;
-        width: 20%;
+        // width: 20%;
         width: 150px;
+        margin: 0 auto;
         margin-top: 20px;
         margin-bottom: 5px;
        // margin-left: 5%;
@@ -126,6 +135,7 @@
         text-align: center;
     }
     .fourthMemberText{
+        width: 100%;
         display: flex;
         align-items: center;
         text-align: center;
@@ -133,7 +143,10 @@
         // padding-right: 240px;
     }
     .fourthMemberPic{
-        margin-left:5% ;
+        margin-left:5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
     button {
         background-color: white;
@@ -173,4 +186,7 @@
         border-radius: 10px;
         font-family: roboto;
     }
+    // .int {
+    //     margin-right: 50%;
+    // }
 }
